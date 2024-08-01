@@ -1,0 +1,65 @@
+/** global styles */
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: var(--font-family, Inter);
+  font-size: 20px;
+  line-height: 1.24;
+  background-color: var(--white, #fff);
+  color: var(--dark, #1d1c1d);
+  position: relative;
+}
+
+ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.container {
+  /* width: 1400px; // 1400 = 1300 + 50*2  */
+  max-width: 1400px;
+  display: block;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+
+
+
+.none {
+  display: none;
+}
+
+.visually-hidden {
+  scale: 0;
+}
+
+::selection {
+  background-color: lawngreen;
+  color: white;
+}
